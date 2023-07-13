@@ -8,11 +8,19 @@
 import Foundation
 
 struct Game {
-  var target = 37
+  var target = Int.random(in: 1...100)
   var score = 0
   var round = 1
   
   func points(sliderValue: Int) -> Int {
-    return 999
+    var difference: Int = target - sliderValue
+    
+    if difference < 0 {
+      difference *= -1
+      // or difference = -difference
+    }
+    
+    var awardedPoints: Int = 100 - difference
+    return awardedPoints
   }
 }
