@@ -58,6 +58,7 @@ struct HitMeButton: View {
     var body: some View {
         Button("Hit me".uppercased()) {
             alertIsVisible = true
+
         }
         .padding(20.0)
         .background(
@@ -73,22 +74,13 @@ struct HitMeButton: View {
             RoundedRectangle(cornerRadius: 21.0)
                 .strokeBorder(Color.white, lineWidth: 2.0)
         )
-        .alert(
-            "Hello there",
-            isPresented: $alertIsVisible,
-            actions: {
-                Button("Awesome") {
-                    print("Alert closed")
-                }
-            },
-            message: {
-                let roundedValue = Int(sliderValue.rounded())
-                Text("""
-        The slider's value is \(roundedValue).
-        Your scored \(game.points(sliderValue: roundedValue)) points this round.
-      """)
-            }
-        )
+        .alert(isPresented: $alertIsVisible, content: {
+          let roundedValue = Int(sliderValue.rounded())
+          let points = game.points(sliderValue: roundedValue)
+          return Alert(title: Text("Hello there!"), message: Text("The slider's value is \(roundedValue).\n" + "You scored \(points) points this round."), dismissButton: .default(Text("Awesome!")) {
+            game.startNewRound(points: points)
+          })
+        })
     }
 }
 
