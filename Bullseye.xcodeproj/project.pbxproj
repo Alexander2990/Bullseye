@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		112F2E522A61914C005F6A33 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F2E512A61914C005F6A33 /* Shapes.swift */; };
 		112F2E542A61974F005F6A33 /* RoundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F2E532A61974F005F6A33 /* RoundViews.swift */; };
 		112F2E562A61AD86005F6A33 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F2E552A61AD86005F6A33 /* BackgroundView.swift */; };
 		114243802A5DBAFE00CC75E4 /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142437F2A5DBAFE00CC75E4 /* BullseyeApp.swift */; };
 		114243822A5DBAFE00CC75E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114243812A5DBAFE00CC75E4 /* ContentView.swift */; };
 		114243842A5DBB0000CC75E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114243832A5DBB0000CC75E4 /* Assets.xcassets */; };
 		114243872A5DBB0000CC75E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114243862A5DBB0000CC75E4 /* Preview Assets.xcassets */; };
+		1192FA612A62F8D100F865EA /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1192FA602A62F8D000F865EA /* PointsView.swift */; };
 		11C076E32A602A4000A23FDE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C076E22A602A4000A23FDE /* Game.swift */; };
 		11C076EB2A603E2C00A23FDE /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C076EA2A603E2C00A23FDE /* BullseyeTests.swift */; };
 		11C076F22A615A4200A23FDE /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C076F12A615A4200A23FDE /* TextViews.swift */; };
@@ -30,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		112F2E512A61914C005F6A33 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		112F2E532A61974F005F6A33 /* RoundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViews.swift; sourceTree = "<group>"; };
 		112F2E552A61AD86005F6A33 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		1142437C2A5DBAFE00CC75E4 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +37,7 @@
 		114243812A5DBAFE00CC75E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		114243832A5DBB0000CC75E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		114243862A5DBB0000CC75E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1192FA602A62F8D000F865EA /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
 		11C076E22A602A4000A23FDE /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		11C076E82A603E2C00A23FDE /* BullseyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C076EA2A603E2C00A23FDE /* BullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeTests.swift; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 				114243812A5DBAFE00CC75E4 /* ContentView.swift */,
 				11C076F12A615A4200A23FDE /* TextViews.swift */,
 				112F2E532A61974F005F6A33 /* RoundViews.swift */,
-				112F2E512A61914C005F6A33 /* Shapes.swift */,
 				112F2E552A61AD86005F6A33 /* BackgroundView.swift */,
+				1192FA602A62F8D000F865EA /* PointsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 			files = (
 				114243822A5DBAFE00CC75E4 /* ContentView.swift in Sources */,
 				11C076F22A615A4200A23FDE /* TextViews.swift in Sources */,
-				112F2E522A61914C005F6A33 /* Shapes.swift in Sources */,
+				1192FA612A62F8D100F865EA /* PointsView.swift in Sources */,
 				112F2E562A61AD86005F6A33 /* BackgroundView.swift in Sources */,
 				11C076E32A602A4000A23FDE /* Game.swift in Sources */,
 				114243802A5DBAFE00CC75E4 /* BullseyeApp.swift in Sources */,
