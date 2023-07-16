@@ -14,7 +14,9 @@ The point of the game is to match the location of the slider with the random num
 Смысл игры состоит в том, чтобы сопоставить положение ползунка со случайным числом, отображаемым в каждом раунде. Чем ближе вы к числу, тем больше очков вы заработаете!
 
 <img src="https://github.com/Alexander2990/Bullseye/assets/64682381/036d233d-a9a1-4693-a65d-a050c4659640" width="200" />
-<img src="https://github.com/Alexander2990/Bullseye/assets/64682381/7a54abbb-5d12-4443-933e-1262d012d90c" width="200" />
-<img src="https://github.com/Alexander2990/Bullseye/assets/64682381/22c70a6f-1b04-498a-bff8-a6b723425e73" width="200" />
-<img src="https://github.com/Alexander2990/Bullseye/assets/64682381/9ba02116-8343-4e10-938d-3acde998a197" width="200" />
+
+<img src="https://github.com/Alexander2990/Bullseye/assets/64682381/a032a0af-e3f0-44ce-9464-3610b46f1b3d" width="200" />
+
+<img src="https://github.com/Alexander2990/Bullseye/assets/64682381/51e00bc7-b057-4387-b625-fb471cc6f7ad" width="200" />
+
 <img src="https://github.com/Alexander2990/Bullseye/assets/64682381/88ebc647-68f8-42b8-b6d9-08f9c4b6c243" width="400" height="200"/>
