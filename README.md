@@ -15,6 +15,6 @@ The point of the game is to match the location of the slider with the random num
 
 <img src="https://github.com/Alexander2990/Bullseye/assets/64682381/51ac2117-2cfe-4ab0-b26e-ef29bc8fb127" width="200" />
 <img src="https://github.com/Alexander2990/Bullseye/assets/64682381/7a54abbb-5d12-4443-933e-1262d012d90c" width="200" />
-<img src="https://github.com/Alexander2990/Bullseye/assets/64682381/88ebc647-68f8-42b8-b6d9-08f9c4b6c243" width="200" />
 <img src="https://github.com/Alexander2990/Bullseye/assets/64682381/22c70a6f-1b04-498a-bff8-a6b723425e73" width="200" />
 <img src="https://github.com/Alexander2990/Bullseye/assets/64682381/9ba02116-8343-4e10-938d-3acde998a197" width="200" />
+<img src="https://github.com/Alexander2990/Bullseye/assets/64682381/88ebc647-68f8-42b8-b6d9-08f9c4b6c243" width="400" height="200"/>
