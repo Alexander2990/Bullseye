@@ -13,10 +13,10 @@ struct InstructionText: View {
     var body: some View {
         Text(text.uppercased())
             .bold()
+            .kerning(2.0)
             .multilineTextAlignment(.center)
             .lineSpacing(5.0)
             .font(.footnote)
-            .kerning(2.0)
             .foregroundColor(Color("TextColor"))
     }
 }
@@ -40,7 +40,7 @@ struct SliderLabelText: View {
         Text(text)
             .bold()
             .foregroundColor(Color("TextColor"))
-            .frame(width: 35)
+            .frame(width: 35.0)
     }
 }
 
@@ -80,7 +80,7 @@ struct ButtonText: View {
             .background(
                 Color.accentColor
             )
-            .foregroundColor(Color.white)
+            .foregroundColor(.white)
             .cornerRadius(12.0)
     }
 }
@@ -91,9 +91,9 @@ struct ScoreText: View {
     var body: some View {
         Text(String(score))
             .bold()
-            .font(.title3)
             .kerning(-0.2)
             .foregroundColor(Color("TextColor"))
+            .font(.title3)
     }
 }
 
@@ -103,9 +103,9 @@ struct DateText: View {
     var body: some View {
         Text(date, style: .time)
             .bold()
-            .font(.title3)
             .kerning(-0.2)
             .foregroundColor(Color("TextColor"))
+            .font(.title3)
     }
 }
 

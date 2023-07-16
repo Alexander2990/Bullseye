@@ -40,6 +40,8 @@ struct InstructionsView: View {
     var body: some View {
         VStack {
             InstructionText(text: "🎯🎯🎯\nPut The Bullsete as close as you can to!")
+                .padding(.leading, 30.0)
+                .padding(.trailing, 30.0)
             BigNumberText(text: String(game.target))
         }
     }
